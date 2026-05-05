@@ -167,7 +167,7 @@ elif mode == "📁 Audit Chantier":
                 with preview_cols[i]:
                     st.image(img_result, caption=f.name, use_column_width=True)
 
-            total = helmets + no_helmet_count = no_helmets
+            total = helmets + no_helmets  
             report.append({
                 "Photo":          f.name,
                 "Total ouvriers": helmets + no_helmets,
